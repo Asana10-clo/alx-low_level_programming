@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 #include <ctype.h>
 
@@ -10,11 +11,13 @@
 int main(void)
 {
 int x = 'A';
+
+srand(time(0));
 while (x <= 'Z')
-x++;
 {
 char lower = tolower(x);
 putchar(lower);
+x++;
 }
 
 return (0);
