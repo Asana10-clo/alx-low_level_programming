@@ -17,8 +17,8 @@ while (x <= 'Z')
 {
 char lower = tolower(x);
 putchar(lower);
-x++;
 putchar('\n');
+x++;
 }
 
 return (0);
