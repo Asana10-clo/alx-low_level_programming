@@ -12,13 +12,13 @@ int main(void)
 {
 int x = 'A';
 
-srand(time(0));
+
 while (x <= 'Z')
- {
+{
 char lower = tolower(x);
 putchar(lower);
 x++;
- }
+}
 putchar('\n');
 return (0);
 }
