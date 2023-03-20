@@ -9,6 +9,7 @@
  * Returns: always 0 (success)
  */
 int main(void)
+
 {
 int x = 'A';
 
