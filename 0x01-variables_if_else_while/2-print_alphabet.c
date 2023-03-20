@@ -5,7 +5,7 @@
 
 /**
  * main - entry point
- *
+ *Description: code to print alphabets in lowercase.
  * Returns: always 0 (success)
  */
 int main(void)
@@ -16,7 +16,7 @@ srand(time(0));
 while (x <= 'Z')
 {
 char lower = tolower(x);
-putchar(lower);
+putchar(lower + "\n");
 x++;
 }
 
