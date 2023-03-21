@@ -3,6 +3,7 @@
 #include <ctype.h>
 
 /**
+ *main - entry point
  *
  * Return: always 0 (success)
  */
@@ -21,8 +22,8 @@ x++;
 
 while (x <= 'Z')
 {
-char upper = toupper(x);
-putchar (upper);
+char lower  = toupper(x);
+putchar (lower);
 x++;
 }
 putchar ('\n');
