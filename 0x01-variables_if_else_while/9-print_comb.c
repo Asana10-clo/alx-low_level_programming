@@ -13,7 +13,7 @@ int i;
 for (i = 0; i < 10; i++)
 {
 putchar(i + '0');
-if (x < 9)
+if (i < 9)
 {
 putchar(',');
 putchar(' ');
