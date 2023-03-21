@@ -14,7 +14,7 @@ for (i = 0; i < 10; i++)
 {
 putchar((i % 10) + '0');
 }
-for (bet = 'a' bet <=f 'f'; bet++)
+for (bet = 'a'; bet <= 'f'; bet++)
 {
 putchar(bet);
 }
