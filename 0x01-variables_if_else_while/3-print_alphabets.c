@@ -5,26 +5,19 @@
 /**
  *main - entry point
  *
- * Return: always 0 (success)
+ * Return: always 0
  */
 int main(void)
-
 {
-int x = 'A';
+char bet;
 
-while (x <= 'Z')
+for (bet = 'a'; bet <= 'z'; bet++)
 {
-char lower = tolower(x);
-putchar (lower);
-x++;
+putchar(bet);
 }
-
-
-while (x <= 'Z')
+for (bet = 'A'; bet <= 'Z'; bet++)
 {
-char lower  = toupper(x);
-putchar (lower);
-x++;
+putchar(bet);
 }
 putchar ('\n');
 return (0);
