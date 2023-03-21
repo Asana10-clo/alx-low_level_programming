@@ -6,7 +6,7 @@
 /**
  * main - entry point
  *Description: code to print alphabets in lowercase.
- * Returns: always 0 (success)
+ * Return: always 0 (success)
  */
 int main(void)
 
