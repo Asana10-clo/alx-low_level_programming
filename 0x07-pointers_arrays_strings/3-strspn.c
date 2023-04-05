@@ -16,7 +16,8 @@ for (q = 0; accept[q]; q++)
 {
 if (*s == accept[q])
 {
-	p++;
+p++;
+break;
 }
 else if (accept[q + 1] == '\0')
 return (p);
