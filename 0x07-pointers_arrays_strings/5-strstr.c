@@ -7,7 +7,7 @@
  * Return: string pointer
  */
 char *_strstr(char *haystack, char *needle)
-{       
+{
 int i;
 int j = 0;
 while (needle[j] != '\0')
