@@ -22,4 +22,6 @@ printf("%s", va_arg(str, char*));
 if (i != (n - 1) && separator != NULL)
 printf("%s", separator);
 }
+printf("\n");
+va_end(str);
 }
